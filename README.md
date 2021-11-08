@@ -65,6 +65,13 @@ La réponse de cet api est en format JSON de cette forme:
 il y a 2 paramètres dans la réponse:
   - message: un petit descriptif de la situation pouvant justifié le prix estimé.
   - prix :  le prix estimé.
+
+l'ensemble de l'algo pour estimer le prix se trouve dans:
+
+```bash
+./src/Controller/PricingController.php
+```
+l'algo y est bien expliqué.
   
 ## Database
 
